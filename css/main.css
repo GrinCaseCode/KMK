@@ -239,7 +239,7 @@ form {
 .billbord__bottom {
 	margin-top: 5.16vw;
 }
-.billbord__bottom:not(.slick-initialized) > li:not(:first-child) {
+.billbord__bottom:not(.slick-initialized) > div:not(:first-child) {
 	display: none;
 }
 

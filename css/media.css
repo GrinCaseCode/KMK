@@ -82,7 +82,7 @@
         border-radius: 10px;
     }
     .about__photo {
-        height: 89px;
+        height: 93px;
         margin-bottom: 10px;
     }
     .about__images .col-4 .about__photo:nth-child(2) {
@@ -95,7 +95,7 @@
         margin: 0 -4px;
     }
     .about-main {
-        height: 207px;
+        height: 213px;
         padding: 15px;
         font-size: 14px;
     }
