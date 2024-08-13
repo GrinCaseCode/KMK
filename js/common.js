@@ -101,6 +101,12 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	  });
 
 
+	  $(".item-location").click(function (){
+		$('html, body').animate({
+			scrollTop: $("#map").offset().top - 70
+		}, 1000);
+	});
+
 	 // стайлер для select
 	 $('select').styler();
 

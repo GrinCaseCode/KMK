@@ -239,6 +239,9 @@ form {
 .billbord__bottom {
 	margin-top: 5.16vw;
 }
+.billbord__bottom:not(.slick-initialized) > li:not(:first-child) {
+	display: none;
+}
 
 .about {
 	padding: 4.43vw 0;
