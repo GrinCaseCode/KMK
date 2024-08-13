@@ -642,7 +642,7 @@ div.about__right {
 	height: auto;
 }
 .row.row_main > div {
-	margin-bottom: 1.3vw;
+	margin-bottom: 1.3vw; 
 }
 .row.row_main {
 	margin-bottom: -1.3vw;
