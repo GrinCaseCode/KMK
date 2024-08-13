@@ -638,9 +638,8 @@ div.about__right {
 	justify-content: flex-end;
 }
 .item-category__image img {
-	height: 100%;
-	width: auto;
-	max-width: 100%;
+	width: 100%;
+	height: auto;
 }
 .row.row_main > div {
 	margin-bottom: 1.3vw;

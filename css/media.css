@@ -261,17 +261,30 @@
         padding: 35px 0;
     }
     .item-category {
-        height: 180px;
-        padding: 15px;
-        font-size: 14px;
+        height: 114px;
+        padding: 11px;
+        font-size: 13px;
         border-radius: 8px;
     }
-    .btn-arrow {
-        width: 36px;
-        height: 36px;
-        right: 10px;
+    .item-category__image {
+        left: 40px;
         bottom: 10px;
-        background-size: 20px auto;
+        align-items: flex-end;
+        border-radius: 10px;
+    }
+    .btn-arrow {
+        width: 28px;
+        height: 28px;
+        right: 7px;
+        bottom: 7px;
+        background-size: 15px auto;
+    }
+    .item-category::before {
+        left: 6px;
+        right: 6px;
+        bottom: -5px;
+        height: 58px;
+        border-radius: 10px;
     }
     .row.row_main > div {
         margin-bottom: 15px;
