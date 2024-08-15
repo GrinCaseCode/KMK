@@ -412,6 +412,7 @@
         height: auto;
         padding: 10px 0;
         font-size: 14px;
+        border: none;
         border-bottom: 1px rgba(255, 255, 255, 0.4) solid;
         border-radius: 0;
         justify-content: flex-start;
@@ -444,6 +445,195 @@
     .contacts .title-section {
         max-width: 300px;
     }
+
+    
+    .wrapper_page {
+        padding-top: 64px;
+    }
+    .page-corporate {
+        padding-top: 32px;
+        padding-bottom: 40px;
+    }
+    .page-corporate .title-section {
+        margin-bottom: 20px;
+    }
+    .page-corporate__text {
+        padding-top: 0;
+        max-width: 100%;
+    }
+    .page-corporate__text p {
+        margin-bottom: 15px;
+    }
+    .row.row_corporate > div {
+        margin-bottom: 25px;
+    }
+    .row.row_corporate {
+        margin-bottom: -25px;
+    }
+    .page-corporate .billbord__item {
+        font-size: 13px;
+    }
+    .team {
+        padding: 40px 0;
+        margin-bottom: 40px;
+    }
+    .item-team {
+        padding: 15px;
+        gap: 0;
+        display: block;
+        border-radius: 8px;
+    }
+    .item-team__image {
+        width: 100%;
+        height: 210px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        display: block;
+    }
+    .item-team__image img {
+        border-radius: 6px;
+    }
+    .item-team__content {
+        padding-bottom: 14px;
+    }
+    .item-team__title {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .item-team__contacts {
+        padding-top: 22px;
+    }
+    .wrapper_page .menu-mobile,
+    .wrapper_page .header.active {
+        background: #fff;
+    }
+    .wrapper_page .menu-mobile {
+        border-top: 1px solid #D9D9D9;
+    }
+    .wrapper_page .menu li a {
+        border-color: #D9D9D9;
+    }
+    .wrapper_page .menu li a:hover {
+        border-color: #f00;
+    }
+    .categories_page {
+        padding-top: 28px;
+        padding-bottom: 45px;
+    }
+    .categories_page .title-section {
+        margin-bottom: 25px;
+    }
+    .breadcrumbs {
+        padding: 15px 0;
+        font-size: 13px;
+    }
+    .breadcrumbs li::after {
+        margin: 0 10px;
+    }
+    .image-card img {
+        border-radius: 10px;
+    }
+    .page-card p {
+        margin-bottom: 15px;
+    }
+    .page-card .btn-main {
+        margin-top: 10px;
+    }
+    .page-card {
+        padding-bottom: 40px;
+    }
+    .fancybox-slide--html .fancybox-close-small {
+        padding: 6px;
+    }
+    .modal-block .form-page {
+        width: 348px;
+    }
+    .form-page {
+        padding: 27px 20px;
+        padding-bottom: 29px;
+        border-radius: 10px;
+    }
+    .form-page .item-form {
+        max-width: 272px;
+    }
+    .title-form {
+        font-size: 25px;
+        margin-bottom: 11px;
+    }
+    .descr-form {
+        margin-bottom: 23px;
+    }
+    .form-page .btn-main {
+        margin-top: 12px;
+        min-width: 200px;
+    }
+    .item-form {
+        margin-bottom: 12px;
+    }
+    .item-form input,
+    .item-form textarea {
+        padding: 0 16px;
+        border-radius: 6px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .checkbox {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .checkbox label input {
+        margin: 12px 2px 0 7px !important;
+    }
+    .checkbox label > span {
+        padding: 4px 0 0 32px;
+    }
+    .checkbox label > span:before {
+        top: 2px;
+        left: 0;
+        width: 19px;
+        height: 19px;
+        border: 1px solid #1a1919;
+        transition: .2s;
+    }
+    .checkbox label > span:after {
+        top: 3px;
+        left: 0px;
+        width: 19px;
+        height: 19px;
+        font-size: 10px;
+    }
+    .image-card {
+        margin-bottom: 15px;
+    }
+    .about_buyers {
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+    .about_buyers .about-main {
+        margin-bottom: 10px;
+    }
+    .contacts_page #map {
+        margin-left: 0;
+        border-radius: 6px;
+        margin-top: 35px;
+        height: 330px;
+    }
+    .gallery-photo {
+        height: 220px;
+        border-radius: 6px;
+    }
+    .gallery-photo img {
+        border-radius: 6px;
+    }
+    .contacts_page .row_main {
+        padding-top: 50px;
+    }
+    .contacts_page {
+        padding-top: 28px;
+        padding-bottom: 45px;
+    }
+
+ 
 }
 
 /* Small Devices, Tablets */
