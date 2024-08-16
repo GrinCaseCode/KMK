@@ -107,6 +107,14 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}, 1000);
 	});
 
+	$(".accordion-header").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".accordion-item").removeClass("active");
+		$(this).parent().siblings(".accordion-item").find(".accordion-content").slideUp(200);
+	  });
+
+
 	 // стайлер для select
 	 $('select').styler();
 
